@@ -160,6 +160,15 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+}
+nav a {
+  padding: 20px;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
