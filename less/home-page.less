@@ -10,6 +10,7 @@
 
     p {
       padding:0 15px;
+      .text ();
     }
   
   }
@@ -36,15 +37,12 @@
 
     p {
       margin-top: 13px;
+      .text ();
     }
   }
 
   .walk {
-    margin-top: 60px;
-    border-top: 1px solid @main-border-color;
-    padding: 50px 60px;
-    display: flex;
-    justify-content: center;
+    .walk-section ();
 
     .walk-text {
       width: 50%;
@@ -55,10 +53,16 @@
 
       p {
         margin-bottom: 26px;
+        .text ();
       }
 
       .btn {
-      }
+        .button (100px, 35px, @btn-bg-color);
+
+        a:hover {
+          background-color: gray;
+          color: #22283A;
+        }
     }
 
     .walk-img {
@@ -72,4 +76,4 @@
       }
     }
   }
-}// home
+} // home
