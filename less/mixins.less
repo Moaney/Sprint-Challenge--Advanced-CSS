@@ -1,1 +1,24 @@
 // Mixins Here
+.text () {
+font-size: 1.8rem;
+color: gray;
+line-height: 1.5;
+}
+
+.walk-section () {
+    border-top: 1px solid @main-border-color;
+    padding: 50px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.button (@width, @height, @background-color) {
+    width: @width;
+    height: @height;
+    padding: 8px;
+    background-color: @background-color;
+    border-radius: 8px;
+    color: white; 
+    font-size: 2rem;
+    border: none;
+}

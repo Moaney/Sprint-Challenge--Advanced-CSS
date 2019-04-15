@@ -32,15 +32,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the difference between an adaptive website and a fully responsive website?
+1. What is the difference between an adaptive website and a fully responsive website? An adaptive website will not accomodate thousands of devices like a responsive website will. Responsive sites will expand and shrink to different devices, adaptive websites will not. 
 
-2. Describe what it means to be mobile first vs desktop first.
+2. Describe what it means to be mobile first vs desktop first. If you are using a mobile first strategy, you are designing for the smallest screens first and working your way up to a desktop. Using a desktop first strategy means that your designs would cater to the largest screens first, working your way down to mobile. 
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units? It allows us to set the font based on the font size of the root html element. This makes the font work for all different types of browers and devices since we have set a rule for the page. It's more accessible. 
 
-4. How would you describe preprocessing to someone new to CSS?
+4. How would you describe preprocessing to someone new to CSS? A different syntax for css written in a different language. When written, it is compiled into normal, convential css.
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble? My favorite concept is mixins. I love how quickly I can apply styling to another element. It makes things very convenient. The concept that gave me the most trouble was parametric mixins, understanding that I needed to refer to the variable in the css and not just in the parenthesis stumped me for a while. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
